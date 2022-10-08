@@ -1,9 +1,10 @@
 import React from 'react'
+import FormParent from './features/form-parent/FormParent'
 
 function App() {
   return (
     <div className="App">
-      <h2>hello world</h2>
+      <FormParent />
     </div>
   );
 }
